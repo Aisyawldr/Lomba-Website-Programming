@@ -1,0 +1,388 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: Harrington;
+    color: #ffffff;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #0a4899;
+    z-index: 1;
+    border-bottom: 1px solid rgb(254, 255, 255);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+    font-family: Tempus Sans ITC;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    margin-top: 0px; /*Kasih jarak untuk bagian atas*/
+    display: flex;
+    margin-bottom: 50px;
+    padding: 107px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Gabriola;
+    color: rgb(20, 80, 136);
+}
+
+.kol {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+    background-color: #5e8fa3;
+}
+
+.kol-left {
+    background-color: #5e8fa3;
+    float: left;
+    width: 30%;
+}
+
+.kol-center {
+    background-color: #5e8fa3;
+    float: left;
+    margin-left: 28px;
+    width: 35%;
+}
+
+.kol-right {
+    background-color: #5e8fa3;
+    float: right;
+    width: 30%;
+}
+
+
+h2 {
+    padding: 20px;
+    font-family: Gabriola;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: rgb(15, 67, 116);
+    width: 90%;
+    line-height: 30px;
+}
+
+a.tbl-biru {
+    background: rgb(4, 48, 85);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 15px 10px 15px;
+    color: #bdc3dd;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #3c6382;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: rgb(1, 51, 53);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #9fa4b8;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: #3c6382;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 10px;
+    font-family: Gabriola;
+    font-size: 20px;
+}
+
+p a{
+    font-family: Tempus Sans ITC;
+    font-size: 20px;
+    padding: 0px 15px 0px 15px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p{
+    font-family: Gabriola;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: cadetblue;
+}
+
+#contact{
+    background: #0a4899;
+    padding: 0px; /*50px 0px 50px 0px*/
+    font-family: Gabriola;
+}
+
+.footer {
+    width: 100%;
+    position: relative; 
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+/*bagian*/
+    bottom: 0;
+    background: #0a4899;
+    color: #fff;
+    /*padding: 100px 0 30px ;*/
+    font-size: 13px;
+    /*line-height: 20px;*/
+}
+
+h3 {
+    font-family: Gabriola;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: cadetblue;
+    width: 100%;
+    line-height: 20px;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 20px;
+    width: 0%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 30px;
+    position: relative;
+}
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}
+/*Form*/
+col ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+form {
+    padding-bottom: 05px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0px;
+}
+
+form .far{
+    font-size: 18px;
+    margin-right: 0px;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border: 0;
+    outline: none;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 0px 0px 30px 0px;
+    margin-top: 0px; /*Kasih jarak untuk bagian atas*/
+    background: #0a4899;
+    color: white;
+    font-family: Gabriola;
+}
+
+/*Untuk mengatur responsive*/
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor{
+        width: 50%;
+    }
+}
+.footer-section p {
+    margin-top: 30px;
+    color: rgb(62, 254, 255);
+}
+.footer-section a {
+    text-decoration: none;
+    color: rgb(253, 245, 230);
+}
+.footer-section a:hover {
+    color: blue;
+}
+
+.satu a {
+    position: absolute;
+    top: 235px;
+    padding-left: 5px;
+}
+.satu .gambar {
+    padding-left: 100px;
+}
+.satu #jarak {
+    padding-left: 20px;
+}
+.dua a {
+    position: absolute;
+    top: 361px;
+    padding-left: 10px;
+}
+.dua .gambar {
+    padding-left: 100px;
+}
+.dua #jarak {
+    padding-left: 20px;
+}
+.tiga a {
+    position: absolute;
+    top: 500px;
+    padding-left: 30px;
+}
+.tiga .gambar {
+    padding-left: 100px;
+}
+.tiga #jarak {
+    padding-left: 20px;
+}
